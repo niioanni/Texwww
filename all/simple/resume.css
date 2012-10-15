@@ -1,0 +1,78 @@
+body{
+  /*height: 400%;*/
+  max-width:978;
+  margin: auto;  
+  padding:10px;
+  letter-spacing:1px;
+  line-height: 2em;
+  
+}
+.column1 
+{ width: 25%;}
+
+.column2
+{  width: 50%; }
+
+table, th, td { border:none;}
+#contact button{ visibility:hidden;}
+#pdfbut button{ visibility:hidden;}
+#part5 table{border:1px solid #D4E0EE;}
+#part5 th{border:1px solid #D4E0EE;}
+#part5 td{border:1px solid #D4E0EE;}
+#part1 div[class="column2"]{ top: -90px;}
+#part2 div[class="column1"]{ top: -30px;}
+#part3 div[class="column1"]{ top: -60px;}
+#part4 div[class="column1"]{ top: -53px;}
+#part45 div[class="column1"]{ top: -60px;}
+#part5 div[class="column1"]{ top: -60px;}
+#part6 div[class="column1"]{ top: -40px;}
+#part7 div[class="column1"]{ top: 0px;}
+#part8 div[class="column1"]{ top: -25px;}
+#part9 div[class="column1"]{ top: -52px;}
+#part10 div[class="column1"]{ top: -40px;}
+#part8 td{border-bottom:2px solid #D4E0EE;}
+#part3 td{border-bottom:1px solid #D4E0EE;}
+div.column1{position: relative;}
+div.column2{ position: relative; left:30%; top:-85px;  display:inline-block;}
+	
+#changes a{ 
+position:relative; left:50%;
+font: bold 11px Arial;
+text-decoration: none;
+background-color: #EEEEEE;
+color: #333333;
+padding: 2px 6px 2px 6px;
+border-top: 1px solid #CCCCCC;
+border-right: 1px solid #333333;
+border-bottom: 1px solid #333333;
+border-left: 1px solid #CCCCCC;}
+
+#changes a:hover {
+   border-top-color: #b3070a;
+   background: #b3070a;
+   color: #ccc;
+   }
+   
+@media all and (max-width: 680px) {
+
+		body{font-size: 80%;}
+		#part1 div[class="column2"]{ top: -75px;}
+		table{font-size: 80%;}
+		#part5 table{font-size: 40%;}
+		#changes a{ left:45%; font-size: 80%;}
+}
+
+   
+@media all and (max-width: 380px) {
+
+		body{font-size: 70%;}
+		#part1 div[class="column2"]{ top: -65px;}
+		#part2 div[class="column2"]{ top: -120px;}
+		table{font-size: 70%;}
+		#part5 table{font-size: 20%;}
+		#changes a{ left:50%; font-size: 70%;}
+}
+
+
+
+

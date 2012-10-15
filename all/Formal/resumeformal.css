@@ -1,0 +1,244 @@
+head{ background-color: red;}
+body{
+/*height: 628%;*/
+background-color: #E0E0D1;
+
+  max-width:978;
+  margin: auto;
+  
+  padding:10px;
+  border: groove 5px red;
+ font-size:fixed;
+ letter-spacing:1px;
+  line-height: 2em;
+  font-family: "georgia",fantasy;
+  
+  
+}
+#contact button { visibility:hidden;}
+#hd h1{position: relative; left: 27%; top: -25px;font-size: 250%; letter-spacing: 3px;  font-family:"Arial Black", Gadget, sans-serif; color: #990000; text-shadow: 2px 2px  #000000;}
+
+.column1 
+{  font-family: "georgia",fantasy; color: #444; background-color: F5F5F0; width: 25%;  margin:2%;}
+
+.column2
+{ background-color: F5F5F0; font-family: "georgia",fantasy; color: #444; width: 50%; }
+
+
+
+div.column1{
+	
+	position: relative;
+	left:2%;
+	font-family: georgia; color: #444;
+	border: groove 5px red;
+	padding: 1px 1px 1px 1px;
+}
+
+div.column2{
+	
+	position: relative;
+	left:30%;  
+	height:auto;
+	display:inline-block;
+	border: groove 5px red;
+	padding: 1%;
+	
+	}
+	
+#part1 div[class="column1"]{ left:20%; width: 50%; }
+#part1 div[class="column2"]{  left:50%; border: none;  top: -129px;}
+#part1 .column2 {  background-color:  	transparent; }
+#part3 .column2 a{ text-decoration:none;}
+
+#part4 .column2 a{ text-decoration:none;}
+#part5 div[class="column2"]{ left:0%; width: 95%; }
+#part45 div[class="column1"]
+{
+	  position: relative;
+	  font-size: 110%;
+	  
+	  left:30%;
+	  width: 40%;
+}     
+
+#part3 .column2 td, th{
+   
+    
+}
+#part4 .column2 td, th{
+    
+    
+} 
+
+
+#part5 .column2 table{
+/*
+border-collapse:separate;      
+width= 10%;
+  */
+  
+}	
+	
+#part5 .column2 td, th{
+    /*background-color: green;
+    font-size-adjust:inherit;
+    font-size:80%;
+    max-width: 50%;
+    letter-spacing:1px;
+   /* overflow: auto;
+   font-size-adjust: 0.5;
+    */
+}
+table, th, td {
+	border: 1px solid #D4E0EE;
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #555;
+}
+
+caption {
+	font-size: 150%;
+	font-weight: bold;
+	margin: 5px;
+}
+
+td, th {
+	padding: 4px;
+}
+
+thead th {
+	text-align: center;
+	background: #E6EDF5;
+	color: #4F76A3;
+	font-size: 100% !important;
+}
+
+tbody th {
+	font-weight: bold;
+}
+
+tbody tr { background: #FCFDFE; }
+
+tbody tr.odd { background: #F7F9FC; }
+
+table a:link {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+table a:visited {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+table a:hover {
+	color: #718ABE;
+	text-decoration: underline !important;
+}
+
+tfoot th, tfoot td {
+	font-size: 85%;
+}
+#pdfbut button{
+	position:relative;
+	top: 290px;
+	left:39%;
+   border-top: 1px solid #f2888d;
+   background: #591313;
+   background: -webkit-gradient(linear, left top, left bottom, from(#e31010), to(#591313));
+   background: -webkit-linear-gradient(top, #e31010, #591313);
+   background: -moz-linear-gradient(top, #e31010, #591313);
+   background: -ms-linear-gradient(top, #e31010, #591313);
+   background: -o-linear-gradient(top, #e31010, #591313);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#pdfbut button:hover {
+   border-top-color: #b3070a;
+   background: #b3070a;
+   color: #ccc;
+   }
+#pdfbut button:active {
+   border-top-color: #de1414;
+   background: #de1414;
+   }
+   
+ #changes a{
+	
+   position:relative; left:35%; top:-20px;
+   border-top: 1px solid #db8f8f;
+   background: #570303;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f70808), to(#570303));
+   background: -webkit-linear-gradient(top, #f70808, #570303);
+   background: -moz-linear-gradient(top, #f70808, #570303);
+   background: -ms-linear-gradient(top, #f70808, #570303);
+   background: -o-linear-gradient(top, #f70808, #570303);
+   padding: 4px 8px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #d9d0d0;
+   font-size: 19px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#changes a:hover {
+   border-top-color: #ab0707;
+   background: #ab0707;
+   color: #fcfcfc;
+   }
+#changes a:active {
+   border-top-color: #5c1b1b;
+   background: #5c1b1b;
+   }  
+
+@media all and (max-width: 680px) {
+
+		#hd h1{font-size: 220%;}
+		#pdfbut button { top:230px; font-size: 80%;}
+		#changes a{font-size: 80%;}
+		.column1 {width: 60%;}
+		#part1 div[class="column1"]{ left:20%; width: 70%; }
+		#part1 div[class="column2"]{ top: -100px;} 
+		body{font-size: 80%;}
+		table{font-size: 80%;}
+		#part5 table{font-size: 40%;}
+		a{font-size: 80%;}
+		button{font-size: 80%;}
+}
+   
+   
+@media all and (max-width: 380px) {
+		
+		#hd h1{font-size: 100%;}
+		#pdfbut button { top:200px; font-size: 70%;}
+		#changes a{font-size: 70%;}
+		.column1 {width: 70%;}
+		#part1 div[class="column1"]{ left:20%; width: 70%; }
+		#part1 div[class="column2"]{ top: -85px;}
+		body{font-size: 70%;}
+		table{font-size: 50%;}
+		#part5 table{font-size: 20%;}
+		a{font-size: 70%;}
+		button{font-size: 70%;}
+
+
+}   
+   
